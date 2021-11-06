@@ -2,7 +2,7 @@
 - hosts: localhost
   gather_facts: false
   vars:
-    digital_ocean_token:' '
+    digital_ocean_token:
     droplet_size: s-1vcpu-1gb
     droplet_region: sgp1
     droplet_image: ubuntu-20-04-x64
